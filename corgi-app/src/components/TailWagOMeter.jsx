@@ -3,17 +3,17 @@ import { motion, useAnimation } from 'framer-motion';
 import confetti from 'canvas-confetti';
 
 const wagMessages = [
-  { level: 0, label: "Not a fan yet?", message: "Give tails a chance..." },
-  { level: 1, label: "Curious", message: "You're starting to see the floof appeal!" },
-  { level: 2, label: "Interested", message: "That tail is looking pretty good, huh?" },
-  { level: 3, label: "Warming up", message: "The floof is calling to you!" },
-  { level: 4, label: "Tail believer", message: "You're officially team tail!" },
-  { level: 5, label: "Floof enthusiast", message: "That's the spirit! Tails are amazing!" },
-  { level: 6, label: "Tail fanatic", message: "You really get it now!" },
-  { level: 7, label: "Corgi tail convert", message: "There's no going back now!" },
-  { level: 8, label: "Maximum floof!", message: "You've achieved enlightenment!" },
-  { level: 9, label: "TAIL OBSESSED", message: "Welcome to the tail appreciation society!" },
-  { level: 10, label: "ULTIMATE TAIL LOVER!", message: "You are the chosen one! 🎉" }
+  { level: 0, label: "まだファンじゃない？", message: "尻尾にチャンスを..." },
+  { level: 1, label: "興味あり", message: "ふわふわの魅力が見えてきましたね！" },
+  { level: 2, label: "気になる", message: "その尻尾、かなり良くないですか？" },
+  { level: 3, label: "温まってきた", message: "ふわふわがあなたを呼んでいます！" },
+  { level: 4, label: "尻尾信者", message: "正式にチーム尻尾の一員です！" },
+  { level: 5, label: "ふわふわ愛好家", message: "その調子！尻尾は素晴らしい！" },
+  { level: 6, label: "尻尾マニア", message: "本当に分かってきましたね！" },
+  { level: 7, label: "コーギー尻尾改宗者", message: "もう戻れません！" },
+  { level: 8, label: "最大ふわふわ！", message: "悟りを開きました！" },
+  { level: 9, label: "尻尾に夢中", message: "尻尾愛好会へようこそ！" },
+  { level: 10, label: "究極の尻尾愛好家！", message: "あなたは選ばれし者です！ 🎉" }
 ];
 
 export default function TailWagOMeter() {
@@ -77,7 +77,7 @@ export default function TailWagOMeter() {
 
   return (
     <div className="wag-meter">
-      <h3>How much do you love tailed corgis?</h3>
+      <h3>尻尾付きコーギーをどれくらい愛していますか？</h3>
 
       <div className="corgi-display">
         <motion.span
@@ -140,7 +140,7 @@ export default function TailWagOMeter() {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          🎉 Celebrate the Floof! 🎉
+          🎉 ふわふわをお祝い！ 🎉
         </motion.button>
       )}
     </div>
