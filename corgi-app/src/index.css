@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    color: #3d3d3d;
+    background: linear-gradient(135deg, #fff5e6 0%, #ffe4c4 100%);
+    min-height: 100vh;
+}
+
+#root {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    text-align: left;
+}
