@@ -80,6 +80,22 @@ export default function TailWagOMeter() {
       <h3>尻尾付きコーギーをどれくらい愛していますか？</h3>
 
       <div className="corgi-display">
+        <motion.div
+          className="corgi-tail"
+          animate={tailControls}
+          style={{ originX: 0.2, originY: 1 }}
+        >
+          <svg width="60" height="80" viewBox="0 0 60 80">
+            <path
+              d="M30 80 Q25 60 20 45 Q15 30 25 15 Q35 0 45 10 Q55 20 50 35 Q45 50 40 65 Q35 75 30 80"
+              fill="#D2691E"
+            />
+            <path
+              d="M32 75 Q28 58 24 45 Q20 32 28 20 Q36 8 44 15 Q50 22 46 35 Q42 50 38 62 Q35 72 32 75"
+              fill="#E8A54B"
+            />
+          </svg>
+        </motion.div>
         <motion.span
           className="corgi-body"
           animate={{
@@ -91,13 +107,6 @@ export default function TailWagOMeter() {
           }}
         >
           🐕
-        </motion.span>
-        <motion.span
-          className="corgi-tail"
-          animate={tailControls}
-          style={{ originX: 0, originY: 0.5 }}
-        >
-          〰️
         </motion.span>
       </div>
 

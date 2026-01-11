@@ -18,7 +18,7 @@ const galleryImages = [
     caption: "完璧なパッケージ"
   },
   {
-    src: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
+    src: "https://images.unsplash.com/photo-1519098901909-b1553a1190af?w=800&h=600&fit=crop",
     alt: "全身を見せてリラックスするコーギー",
     caption: "ふわふわ付きのリラックス"
   }
