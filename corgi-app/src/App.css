@@ -252,21 +252,25 @@ footer {
     font-size: 6rem;
     margin: 20px 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0;
     user-select: none;
+    position: relative;
 }
 
 .corgi-body {
     display: inline-block;
+    position: relative;
+    z-index: 2;
 }
 
 .corgi-tail {
     display: inline-block;
-    transform-origin: left center;
-    font-size: 3rem;
-    margin-left: -10px;
+    margin-bottom: -25px;
+    position: relative;
+    z-index: 1;
 }
 
 .wag-slider-container {
@@ -342,6 +346,7 @@ footer {
     bottom: 0;
     background: rgba(0, 0, 0, 0.9);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -351,22 +356,28 @@ footer {
 
 .lightbox-content {
     max-width: 90vw;
-    max-height: 90vh;
+    max-height: 80vh;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .lightbox-content img {
     max-width: 100%;
-    max-height: 85vh;
+    max-height: 70vh;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 .lightbox-caption {
     text-align: center;
     color: white;
-    padding: 15px;
-    font-size: 1.2rem;
+    padding: 20px 15px;
+    font-size: 1.3rem;
+    background: transparent;
+    width: 100%;
 }
 
 .lightbox-close {
