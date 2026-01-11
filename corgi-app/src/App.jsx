@@ -16,40 +16,40 @@ import TiltGallery from './components/TiltGallery';
 const reasons = [
   {
     icon: "💫",
-    title: "The Magnificent Floof",
-    description: "A corgi's natural tail is a glorious plume of fur that rivals even the most majestic of fox tails. It's fluffy, it's fabulous, and it adds an extra dimension of adorableness to an already perfect dog."
+    title: "壮大なるふわふわ",
+    description: "コーギーの自然な尻尾は、キツネの尻尾にも匹敵する見事な毛並みです。ふわふわで、素晴らしく、すでに完璧な犬にさらなる可愛さを加えてくれます。"
   },
   {
     icon: "💬",
-    title: "Maximum Expression",
-    description: "Dogs communicate so much through their tails. A tailed corgi can show you the full spectrum of emotions — from the excited helicopter spin to the gentle, happy sway. You'll always know exactly how your corgi feels."
+    title: "最大限の表現力",
+    description: "犬は尻尾でたくさんのことを伝えます。尻尾のあるコーギーは、興奮してヘリコプターのように回転する動きから、穏やかで幸せな揺れまで、感情の全スペクトルを見せてくれます。"
   },
   {
     icon: "🌿",
-    title: "Natural & Complete",
-    description: "A corgi with a tail is a corgi as nature designed them. These herding dogs evolved with their tails for balance, communication, and expression. Keeping them intact honors their heritage."
+    title: "自然のままで完璧",
+    description: "尻尾のあるコーギーは、自然が設計した通りのコーギーです。これらの牧羊犬は、バランス、コミュニケーション、表現のために尻尾とともに進化しました。"
   },
   {
     icon: "⚖️",
-    title: "Better Balance",
-    description: "Tails help corgis with their already-impressive agility. Whether they're herding, playing, or zooming around the yard, that tail provides crucial counterbalance for their long bodies and short legs."
+    title: "優れたバランス",
+    description: "尻尾はコーギーの素晴らしい敏捷性を助けます。牧羊、遊び、庭を走り回る時も、尻尾は長い体と短い足の重要なカウンターバランスを提供します。"
   },
   {
     icon: "🦊",
-    title: "The Fox-Like Charm",
-    description: "With their pointed ears, foxy faces, and fluffy tails, tailed corgis look remarkably like the most adorable little foxes. It's the complete fairy-tale woodland creature aesthetic."
+    title: "キツネのような魅力",
+    description: "とがった耳、キツネのような顔、ふわふわの尻尾を持つコーギーは、まるで最も愛らしい小さなキツネのようです。まさにおとぎ話の森の生き物の美学です。"
   },
   {
     icon: "❤️",
-    title: "More to Love",
-    description: "Let's be honest — more corgi is always better. That extra fluff, that wagging tail, that complete silhouette. It's simply more corgi to adore, and who could argue with that?"
+    title: "もっと愛せる",
+    description: "正直に言いましょう — コーギーは多ければ多いほど良いのです。余分なふわふわ、揺れる尻尾、完璧なシルエット。単純にもっと愛せるコーギーです。"
   }
 ];
 
 const facts = [
-  { number: "70%", label: "of countries have banned cosmetic tail docking" },
-  { number: "30+", label: "different tail positions dogs use to communicate" },
-  { number: "100%", label: "more floof to appreciate" }
+  { number: "70%", label: "の国が美容目的の断尾を禁止" },
+  { number: "30+", label: "種類の尻尾の位置で犬はコミュニケーション" },
+  { number: "100%", label: "もっとふわふわを楽しめる" }
 ];
 
 function App() {
@@ -62,7 +62,7 @@ function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Corgis With Tails
+            尻尾のあるコーギー
           </motion.h1>
           <motion.p
             className="tagline"
@@ -70,7 +70,7 @@ function App() {
             animate={{ opacity: 0.95 }}
             transition={{ delay: 0.5, duration: 0.6 }}
           >
-            The way nature intended. The way love demands.
+            自然が意図した姿。愛が求める姿。
           </motion.p>
         </header>
       </HeaderReveal>
@@ -78,7 +78,7 @@ function App() {
       <HeroReveal>
         <img
           src="https://images.unsplash.com/photo-1612536057832-2ff7ead58194?w=1400&h=500&fit=crop&crop=center"
-          alt="Happy corgi with a fluffy tail running through a meadow"
+          alt="草原を駆け回るふわふわの尻尾を持つ幸せなコーギー"
           className="hero-image"
         />
       </HeroReveal>
@@ -87,14 +87,14 @@ function App() {
         <FadeUp>
           <section className="intro">
             <p>
-              For too long, the magnificent corgi tail has been overlooked. While many know and love the adorable "loaf" silhouette of a docked corgi, there's something truly magical about a corgi in its complete, natural form — fluffy tail and all.
+              長い間、コーギーの壮大な尻尾は見過ごされてきました。多くの人が断尾されたコーギーの愛らしい「食パン」のようなシルエットを知り、愛していますが、完全で自然な姿のコーギー — ふわふわの尻尾付き — には、本当に魔法のような何かがあります。
             </p>
           </section>
         </FadeUp>
 
         <FadeUp delay={0.1}>
           <section>
-            <h2>Why Tailed Corgis Steal Our Hearts</h2>
+            <h2>尻尾付きコーギーが心を盗む理由</h2>
             <StaggerContainer staggerDelay={0.15}>
               <div className="reasons">
                 {reasons.map((reason, index) => (
@@ -122,7 +122,7 @@ function App() {
 
         <FadeUp>
           <section>
-            <h2>Tail Facts</h2>
+            <h2>尻尾の事実</h2>
             <div className="facts">
               {facts.map((fact, index) => (
                 <FlipIn key={index} delay={index * 0.15}>
@@ -157,7 +157,7 @@ function App() {
 
         <FadeUp>
           <section>
-            <h2>Tailed Corgi Gallery</h2>
+            <h2>尻尾付きコーギーギャラリー</h2>
             <TiltGallery />
           </section>
         </FadeUp>
@@ -166,7 +166,7 @@ function App() {
           <section className="quote-section">
             <blockquote>
               <TypeWriter
-                text="A corgi's tail is not just fur and bone — it's a banner of joy, a flag of friendship, and a constant reminder that some of life's best things come with a wag attached."
+                text="コーギーの尻尾は単なる毛と骨ではありません — それは喜びの旗、友情の印、そして人生の最高のものには尻尾の振りがついてくるという永遠のリマインダーです。"
               />
             </blockquote>
             <motion.p
@@ -176,7 +176,7 @@ function App() {
               viewport={{ once: true }}
               transition={{ delay: 2 }}
             >
-              — Every Tailed Corgi Enthusiast
+              — すべての尻尾付きコーギー愛好家
             </motion.p>
           </section>
         </FadeUp>
@@ -187,19 +187,19 @@ function App() {
               <SlideIn direction="left">
                 <motion.img
                   src="https://images.unsplash.com/photo-1597633425046-08f5110420b5?w=500&h=400&fit=crop"
-                  alt="Beautiful Cardigan Welsh Corgi with full tail"
+                  alt="美しい尻尾を持つカーディガン・ウェルシュ・コーギー"
                   whileHover={{ scale: 1.03 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 />
               </SlideIn>
               <SlideIn direction="right">
                 <div className="cardigan-text">
-                  <h2>The Cardigan Connection</h2>
+                  <h2>カーディガンとのつながり</h2>
                   <p style={{ marginBottom: '15px' }}>
-                    While Pembroke Welsh Corgis are often seen without tails (due to historical docking practices), their cousins the <strong>Cardigan Welsh Corgis</strong> have always kept their magnificent tails. Today, more and more Pembroke breeders are choosing to keep tails intact, and the results are absolutely heartwarming.
+                    ペンブローク・ウェルシュ・コーギーは歴史的な断尾の慣習により尻尾がないことが多いですが、いとこである<strong>カーディガン・ウェルシュ・コーギー</strong>は常に壮大な尻尾を保ってきました。今日、ますます多くのペンブロークのブリーダーが尻尾を残すことを選んでおり、その結果は心温まるものです。
                   </p>
                   <p>
-                    Whether Pembroke or Cardigan, a corgi with a tail represents a growing movement toward appreciating these wonderful dogs in their complete, natural form. It's not about which is "better" — it's about celebrating the full beauty of these incredible companions.
+                    ペンブロークでもカーディガンでも、尻尾のあるコーギーは、これらの素晴らしい犬たちを完全で自然な姿で愛でる動きの象徴です。どちらが「良い」かではなく、これらの素晴らしい仲間の完全な美しさを祝うことなのです。
                   </p>
                 </div>
               </SlideIn>
@@ -209,7 +209,7 @@ function App() {
 
         <FadeUp>
           <section className="cta-section">
-            <h2>Join the Tail Appreciation Society</h2>
+            <h2>尻尾愛好会に参加しよう</h2>
             <TailWagOMeter />
             <motion.p
               style={{ marginTop: '30px', fontSize: '1.1rem' }}
@@ -218,7 +218,7 @@ function App() {
               viewport={{ once: true }}
               transition={{ delay: 0.5 }}
             >
-              Next time you see a corgi with a tail, take a moment to appreciate that magnificent floof. Share the joy. Spread the word. Because every corgi — tail or no tail — deserves love, but there's something extra special about that happy, wagging plume.
+              次に尻尾のあるコーギーを見かけたら、その壮大なふわふわを愛でる時間を取ってください。喜びを分かち合いましょう。言葉を広めましょう。すべてのコーギー — 尻尾があってもなくても — 愛に値しますが、幸せに揺れるふわふわの尻尾には特別な何かがあるのです。
             </motion.p>
           </section>
         </FadeUp>
@@ -229,8 +229,8 @@ function App() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
       >
-        <p>Made with <span className="heart">♥</span> for fluffy-tailed friends everywhere</p>
-        <p style={{ marginTop: '10px', opacity: 0.7 }}>All corgis are wonderful. Tailed corgis are just a little more wonderful.</p>
+        <p>世界中のふわふわ尻尾の友達のために <span className="heart">♥</span> を込めて作りました</p>
+        <p style={{ marginTop: '10px', opacity: 0.7 }}>すべてのコーギーは素晴らしい。尻尾付きコーギーはもう少しだけ素晴らしい。</p>
       </motion.footer>
     </>
   );

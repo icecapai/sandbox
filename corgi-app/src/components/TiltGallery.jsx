@@ -4,23 +4,23 @@ import { motion, AnimatePresence, useMotionValue, useTransform, useSpring } from
 const galleryImages = [
   {
     src: "https://images.unsplash.com/photo-1554692918-08fa0fdc9db3?w=800&h=600&fit=crop",
-    alt: "Corgi with fluffy tail sitting in grass",
-    caption: "That magnificent floof in action"
+    alt: "草の上に座るふわふわ尻尾のコーギー",
+    caption: "壮大なふわふわの実力"
   },
   {
     src: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&h=600&fit=crop",
-    alt: "Happy corgi running with tail wagging",
-    caption: "Pure joy in motion"
+    alt: "尻尾を振りながら走る幸せなコーギー",
+    caption: "動く純粋な喜び"
   },
   {
     src: "https://images.unsplash.com/photo-1546975490-e8b92a360b24?w=800&h=600&fit=crop",
-    alt: "Corgi portrait showing beautiful coat",
-    caption: "The complete package"
+    alt: "美しい毛並みを見せるコーギーのポートレート",
+    caption: "完璧なパッケージ"
   },
   {
     src: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
-    alt: "Corgi relaxing showing full body",
-    caption: "Relaxation with extra fluff"
+    alt: "全身を見せてリラックスするコーギー",
+    caption: "ふわふわ付きのリラックス"
   }
 ];
 
